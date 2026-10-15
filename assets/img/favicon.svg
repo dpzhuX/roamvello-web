@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Roamvello icon: an open book with a location pin and dotted route">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#7CC8F5"/>
+<stop offset="1" stop-color="#3F9BE0"/>
+</linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#6B5A3A" stop-opacity="0"/>
+<stop offset="1" stop-color="#6B5A3A" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="gr" x1="1" y1="0" x2="0" y2="0">
+<stop offset="0" stop-color="#6B5A3A" stop-opacity="0"/>
+<stop offset="1" stop-color="#6B5A3A" stop-opacity="0.2"/>
+</linearGradient>
+<clipPath id="pages">
+<path d="M512 330 C 440 286 306 278 172 306 L 172 760 C 306 732 440 738 512 780 Z"/>
+<path d="M512 330 C 584 286 718 278 852 306 L 852 760 C 718 732 584 738 512 780 Z"/>
+</clipPath>
+<clipPath id="squircle">
+<rect width="1024" height="1024" rx="230"/>
+</clipPath>
+</defs>
+<g clip-path="url(#squircle)">
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<ellipse cx="512" cy="838" rx="370" ry="28" fill="#000000" opacity="0.22"/>
+<path d="M512 372 C 430 330 280 322 132 352 L 132 800 C 282 772 430 778 512 820 C 594 778 742 772 892 800 L 892 352 C 744 322 594 330 512 372 Z" fill="#FFC24D"/>
+<path d="M512 350 C 436 308 296 300 156 328 L 156 782 C 296 754 436 760 512 802 Z" fill="#F2E4C9"/>
+<path d="M512 350 C 588 308 728 300 868 328 L 868 782 C 728 754 588 760 512 802 Z" fill="#F2E4C9"/>
+<path d="M512 330 C 440 286 306 278 172 306 L 172 760 C 306 732 440 738 512 780 Z" fill="#FFFAF0"/>
+<path d="M512 330 C 584 286 718 278 852 306 L 852 760 C 718 732 584 738 512 780 Z" fill="#FFFAF0"/>
+<g clip-path="url(#pages)">
+<g fill="none" stroke="#F2E4C9" stroke-width="7" stroke-linecap="round" opacity="0.75">
+<path d="M218 420 C 320 404 420 408 478 432"/>
+<path d="M218 500 C 320 484 420 488 478 512"/>
+<path d="M218 580 C 320 564 420 568 478 592"/>
+<path d="M218 660 C 320 644 420 648 478 672"/>
+<path d="M806 420 C 704 404 604 408 546 432"/>
+<path d="M806 500 C 704 484 604 488 546 512"/>
+<path d="M806 580 C 704 564 604 568 546 592"/>
+<path d="M806 660 C 704 644 604 648 546 672"/>
+</g>
+<rect x="452" y="280" width="60" height="520" fill="url(#gl)"/>
+<rect x="512" y="280" width="60" height="520" fill="url(#gr)"/>
+</g>
+<path d="M512 330 L512 780" stroke="#F2E4C9" stroke-width="4"/>
+<path d="M340 594 Q 452 408 606 462" fill="none" stroke="#FF7A59" stroke-width="20" stroke-linecap="round" stroke-dasharray="1 40"/>
+<circle cx="322" cy="616" r="36" fill="#FF7A59"/>
+<circle cx="322" cy="616" r="14" fill="#FFFAF0"/>
+<ellipse cx="650" cy="476" rx="44" ry="12" fill="#6B5A3A" opacity="0.3"/>
+<path d="M650 470 C 628 440 556 370 556 280 A 94 94 0 1 1 744 280 C 744 370 672 440 650 470 Z" fill="#FF7A59"/>
+<circle cx="650" cy="280" r="37" fill="#FFFAF0"/>
+</g>
+</svg>
